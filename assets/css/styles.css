@@ -112,7 +112,8 @@ nav ul li
     gap: 2.5rem;
     height: 40rem;
     /* max-width: 68.75rem; */
-    margin: auto;
+    padding-left: 10px;
+    /* margin: auto; */
 }
 
 .hero img
@@ -167,3 +168,13 @@ nav ul li
     }
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* gap: 2.5rem;
+    height: 40rem; */
+    /* max-width: 68.75rem; */
+    margin: auto;
+}
